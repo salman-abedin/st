@@ -98,25 +98,43 @@ float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    /* 8 normal colors */
-    "black",
-    "red3",
-    "green3",
-    "yellow3",
-    "blue2",
-    "magenta3",
-    "cyan3",
-    "gray90",
 
-    /* 8 bright colors */
-    "gray50",
-    "red",
-    "green",
-    "yellow",
-    "#5c5cff",
-    "magenta",
-    "cyan",
-    "white",
+    /* Gruvbox Material */
+    "#665c54",
+    "#ea6962",
+    "#a9b665",
+    "#e78a4e",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#dfbf8e",
+    "#928374",
+    "#ea6962",
+    "#a9b665",
+    "#e3a84e",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#dfbf8e",
+
+    /* /1* 8 normal colors *1/ */
+    /* "black", */
+    /* "red3", */
+    /* "green3", */
+    /* "yellow3", */
+    /* "blue2", */
+    /* "magenta3", */
+    /* "cyan3", */
+    /* "gray90", */
+    /* /1* 8 bright colors *1/ */
+    /* "gray50", */
+    /* "red", */
+    /* "green", */
+    /* "yellow", */
+    /* "#5c5cff", */
+    /* "magenta", */
+    /* "cyan", */
+    /* "white", */
 
     [255] = 0,
 
@@ -132,7 +150,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 258;
-static unsigned int defaultcs = 256;
+static unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 257;
 
 /*
