@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:style=bold:size=15:antialias=true:autohint=true";
+static char font[] = "mono:style=bold:size=15:antialias=true:autohint=true";
 static int borderpx = 30;
 
 /*
@@ -16,7 +16,7 @@ static int borderpx = 30;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char shell[] = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -203,11 +203,15 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
+#define MODKEY ControlMask
 #define TERMMOD (ControlMask | ShiftMask)
 
 static Shortcut shortcuts[] = {
     /* mask                 keysym          function        argument */
+
+    {MODKEY, XK_l, zoom, {.f = +1}},
+    {MODKEY, XK_k, zoom, {.f = -1}},
+
     {XK_ANY_MOD, XK_Break, sendbreak, {.i = 0}},
     {ControlMask, XK_Print, toggleprinter, {.i = 0}},
     {ShiftMask, XK_Print, printscreen, {.i = 0}},
