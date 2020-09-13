@@ -9,6 +9,7 @@ static char font[] = "mono:style=bold:size=15:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
+    "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
     "Kawkab Mono:size=15:antialias=true:autohint=true",
 };
 
