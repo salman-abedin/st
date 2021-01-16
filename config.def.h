@@ -7,7 +7,7 @@
  */
 /* static char font[] = "mono:style=bold:size=15:antialias=true:autohint=true";
  */
-static char font[] = "mono:size=16:antialias=true:autohint=true";
+static char font[] = "mono:size=17:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
@@ -123,49 +123,49 @@ float alpha = 0.65;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-    /* //-------------------------------------- */
-    /* //              Gruvbox Material */
-    /* //-------------------------------------- */
-    /* /1* Normal *1/ */
-    /* "#665c54", */
-    /* "#ea6962", */
-    /* "#a9b665", */
-    /* "#e78a4e", */
-    /* "#7daea3", */
-    /* "#d3869b", */
-    /* "#89b482", */
-    /* "#dfbf8e", */
-    /* /1* Bright *1/ */
-    /* "#928374", */
-    /* "#ea6962", */
-    /* "#a9b665", */
-    /* "#e3a84e", */
-    /* "#7daea3", */
-    /* "#d3869b", */
-    /* "#89b482", */
-    /* "#dfbf8e", */
-
     //--------------------------------------
-    //              One Dark
+    //              Gruvbox Material
     //--------------------------------------
     /* Normal */
-    "#282C34",
-    "#E06C75",
-    "#98C379",
-    "#E5C07B",
-    "#61AFEF",
-    "#C678DD",
-    "#56B6C2",
-    "#ABB2BF",
+    "#665c54",
+    "#ea6962",
+    "#a9b665",
+    "#e78a4e",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#dfbf8e",
     /* Bright */
-    "#282C34",
-    "#E06C75",
-    "#98C379",
-    "#E5C07B",
-    "#61AFEF",
-    "#C678DD",
-    "#56B6C2",
-    "#ABB2BF",
+    "#928374",
+    "#ea6962",
+    "#a9b665",
+    "#e3a84e",
+    "#7daea3",
+    "#d3869b",
+    "#89b482",
+    "#dfbf8e",
+
+    /* //-------------------------------------- */
+    /* //              One Dark */
+    /* //-------------------------------------- */
+    /* /1* Normal *1/ */
+    /* "#282C34", */
+    /* "#E06C75", */
+    /* "#98C379", */
+    /* "#E5C07B", */
+    /* "#61AFEF", */
+    /* "#C678DD", */
+    /* "#56B6C2", */
+    /* "#ABB2BF", */
+    /* /1* Bright *1/ */
+    /* "#282C34", */
+    /* "#E06C75", */
+    /* "#98C379", */
+    /* "#E5C07B", */
+    /* "#61AFEF", */
+    /* "#C678DD", */
+    /* "#56B6C2", */
+    /* "#ABB2BF", */
 
     /* /1* 8 normal colors *1/ */
     /* "black", */
