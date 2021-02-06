@@ -7,7 +7,8 @@
  */
 /* static char font[] = "mono:style=bold:size=15:antialias=true:autohint=true";
  */
-static char font[] = "mono:size=17:antialias=true:autohint=true";
+/* static char font[] = "mono:size=17:antialias=true:autohint=true"; */
+static char font[] = "mono:style=bold:size=17:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
@@ -118,32 +119,33 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.85;
+/* float alpha = 0.85; */
+float alpha = 0.65;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-    //--------------------------------------
-    //              Gruvbox Material
-    //--------------------------------------
-    /* Normal */
-    "#665c54",
-    "#ea6962",
-    "#a9b665",
-    "#e78a4e",
-    "#7daea3",
-    "#d3869b",
-    "#89b482",
-    "#dfbf8e",
-    /* Bright */
-    "#928374",
-    "#ea6962",
-    "#a9b665",
-    "#e3a84e",
-    "#7daea3",
-    "#d3869b",
-    "#89b482",
-    "#dfbf8e",
+    /* //-------------------------------------- */
+    /* //              Gruvbox Material */
+    /* //-------------------------------------- */
+    /* /1* Normal *1/ */
+    /* "#665c54", */
+    /* "#ea6962", */
+    /* "#a9b665", */
+    /* "#e78a4e", */
+    /* "#7daea3", */
+    /* "#d3869b", */
+    /* "#89b482", */
+    /* "#dfbf8e", */
+    /* /1* Bright *1/ */
+    /* "#928374", */
+    /* "#ea6962", */
+    /* "#a9b665", */
+    /* "#e3a84e", */
+    /* "#7daea3", */
+    /* "#d3869b", */
+    /* "#89b482", */
+    /* "#dfbf8e", */
 
     /* //-------------------------------------- */
     /* //              One Dark */
@@ -166,6 +168,29 @@ static const char *colorname[] = {
     /* "#C678DD", */
     /* "#56B6C2", */
     /* "#ABB2BF", */
+
+    //--------------------------------------
+    //              Papercolor
+    //--------------------------------------
+    /* Normal */
+    "#eeeeee",
+    "#af0000",
+    "#008700",
+    "#5f8700",
+    "#0087af",
+    "#878787",
+    "#005f87",
+    "#444444",
+    /* Bright */
+    "#bcbcbc",
+    "#d70000",
+    "#d70087",
+    "#8700af",
+    "#d75f00",
+    "#d75f00",
+    "#005faf",
+    "#005f87",
+
 
     /* /1* 8 normal colors *1/ */
     /* "black", */
@@ -192,16 +217,24 @@ static const char *colorname[] = {
     "#cccccc",
     "#555555",
     "black",
+    "#cccccc",
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 258;
-static unsigned int defaultcs = 7;
-static unsigned int defaultrcs = 257;
+
+/* unsigned int defaultfg = 7; */
+/* static unsigned int defaultcs = 7; */
+/* unsigned int defaultbg = 258; */
+
+unsigned int defaultfg = 258;
+static unsigned int defaultcs = 258;
+unsigned int defaultbg = 259;
+
+/* static unsigned int defaultrcs = 257; */
+static unsigned int defaultrcs = 1;
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
