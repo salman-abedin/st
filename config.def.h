@@ -147,50 +147,9 @@ static const char *colorname[] = {
     /* "#89b482", */
     /* "#dfbf8e", */
 
-    /* //-------------------------------------- */
-    /* //              One Dark */
-    /* //-------------------------------------- */
-    /* /1* Normal *1/ */
-    /* "#282C34", */
-    /* "#E06C75", */
-    /* "#98C379", */
-    /* "#E5C07B", */
-    /* "#61AFEF", */
-    /* "#C678DD", */
-    /* "#56B6C2", */
-    /* "#ABB2BF", */
-    /* /1* Bright *1/ */
-    /* "#282C34", */
-    /* "#E06C75", */
-    /* "#98C379", */
-    /* "#E5C07B", */
-    /* "#61AFEF", */
-    /* "#C678DD", */
-    /* "#56B6C2", */
-    /* "#ABB2BF", */
+    "#eeeeee", "#af0000", "#008700", "#5f8700", "#0087af", "#878787", "#005f87", "#444444", "#bcbcbc", "#d70000", "#d70087", "#8700af", "#d75f00", "#d75f00", "#005faf", "#005f87", // PaperColor
 
-    //--------------------------------------
-    //              Papercolor
-    //--------------------------------------
-    /* Normal */
-    "#eeeeee",
-    "#af0000",
-    "#008700",
-    "#5f8700",
-    "#0087af",
-    "#878787",
-    "#005f87",
-    "#444444",
-    /* Bright */
-    "#bcbcbc",
-    "#d70000",
-    "#d70087",
-    "#8700af",
-    "#d75f00",
-    "#d75f00",
-    "#005faf",
-    "#005f87",
-
+    "#282C34", "#E06C75", "#98C379", "#E5C07B", "#61AFEF", "#C678DD", "#56B6C2", "#ABB2BF", "#282C34", "#E06C75", "#98C379", "#E5C07B", "#61AFEF", "#C678DD", "#56B6C2", "#ABB2BF", // OneDark
 
     /* /1* 8 normal colors *1/ */
     /* "black", */
@@ -225,13 +184,9 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 
-/* unsigned int defaultfg = 7; */
-/* static unsigned int defaultcs = 7; */
-/* unsigned int defaultbg = 258; */
-
-unsigned int defaultfg = 258;
-static unsigned int defaultcs = 258;
-unsigned int defaultbg = 259;
+unsigned int defaultbg=259;
+unsigned int defaultfg=258;
+static unsigned int defaultcs=258;
 
 /* static unsigned int defaultrcs = 257; */
 static unsigned int defaultrcs = 1;
