@@ -8,7 +8,8 @@
 /* static char font[] = "mono:style=bold:size=15:antialias=true:autohint=true";
  */
 /* static char font[] = "mono:size=17:antialias=true:autohint=true"; */
-static char font[] = "mono:style=bold:size=17:antialias=true:autohint=true";
+/* static char font[] = "mono:style=bold:size=17:antialias=true:autohint=true"; */
+static char font[] = "mono:style=bold:size=13:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
