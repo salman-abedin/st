@@ -6,6 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
+/* static char font[] = "mono:style=bold:size=13:antialias=true:autohint=true"; */
 static char font[] = "mono:size=16:antialias=true:autohint=true";
 
 /* Spare fonts */
