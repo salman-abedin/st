@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-/* static char font[] = "mono:style=bold:style=bold:style=bold:style=bold:size=13:antialias=true:autohint=true"; */
-static char font[] = "mono:style=bold:style=bold:style=bold:size=16:antialias=true:autohint=true";
+/* static char font[] = "mono:style=bold:style=bold:style=bold:size=13:antialias=true:autohint=true"; */
+static char font[] = "mono:style=bold:style=bold:size=16:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
@@ -145,7 +145,7 @@ static const char *colorname[] = {
     /* "#89b482", */
     /* "#dfbf8e", */
 
-    "#eeeeee", "#af0000", "#008700", "#5f8700", "#0087af", "#878787", "#005f87", "#444444", "#bcbcbc", "#d70000", "#d70087", "#8700af", "#d75f00", "#d75f00", "#005faf", "#005f87", // PaperColor
+    //"#eeeeee", "#af0000", "#008700", "#5f8700", "#0087af", "#878787", "#005f87", "#444444", "#bcbcbc", "#d70000", "#d70087", "#8700af", "#d75f00", "#d75f00", "#005faf", "#005f87", // PaperColor
 
     "#282C34", "#E06C75", "#98C379", "#E5C07B", "#61AFEF", "#C678DD", "#56B6C2", "#ABB2BF", "#282C34", "#E06C75", "#98C379", "#E5C07B", "#61AFEF", "#C678DD", "#56B6C2", "#ABB2BF", // OneDark
 
@@ -182,9 +182,9 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 
-unsigned int defaultbg=259;
-unsigned int defaultfg=258;
-static unsigned int defaultcs=258;
+unsigned int defaultbg=258;
+unsigned int defaultfg=7;
+static unsigned int defaultcs=7;
 
 /* static unsigned int defaultrcs = 257; */
 static unsigned int defaultrcs = 1;
