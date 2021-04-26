@@ -12,10 +12,10 @@ static char font[] = "mono:size=16:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color Emoji:pixelsize=15:antialias=true:autohint=true",
-    "JoyPixels:pixelsize=15:antialias=true:autohint=true",
+    // "JoyPixels:pixelsize=15:antialias=true:autohint=true",
     "Font Awesome 5 Free:pixelsize=15:antialias=true:autohint=true",
     "Font Awesome 5 Brands:pixelsize=15:antialias=true:autohint=true",
-    "Kawkab Mono:size=15:antialias=true:autohint=true",
+    // "Kawkab Mono:antialias=true:autohint=true",
 };
 
 static int borderpx = 30;
